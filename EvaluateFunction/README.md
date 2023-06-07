@@ -1,9 +1,8 @@
 # Truth Table Generator and Equation Solver
 
-The Truth Table Generator and Equation Solver is a Windows Forms application developed in C#. It allows users to input equations consisting of uppercase letters and generates a truth table for the equation. The project evaluates each row of the truth table by applying the concepts of evaluating mathematical expressions and converting them to prefix notation.
+The Truth Table Generator and Equation Solver is a Windows Forms application developed in C#. It allows users to input equations consisting of uppercase letters and generates a truth table for the equation. The project evaluates each row of the truth table by applying the concepts of evaluating mathematical expressions and converting them to postfix notation.
 
 ![2023-06-07-14-11-32](https://github.com/AhmadSaleh2001/Digital-Electronic-Projects/assets/79485253/f13736fd-bd35-4895-8fb5-153d6e7e7297)
-
 
 ## Equation Evaluation
 
@@ -14,9 +13,9 @@ The application takes an equation as input, where the symbols have specific mean
 
 The program generates a truth table that covers all possible combinations of values for the variables in the equation. It evaluates each row of the truth table by substituting the variable values into the equation and computing the corresponding output value.
 
-## Prefix Notation Conversion
+## Postfix Notation Conversion
 
-To facilitate efficient evaluation, the project utilizes the conversion of equations to prefix notation. By converting the equation to prefix notation, it simplifies the evaluation process and allows for easier parsing and computation. This approach enables the project to handle complex equations with multiple variables and operators effectively.
+To facilitate efficient evaluation, the project utilizes the conversion of equations to postfix notation. By converting the equation to postfix notation, it simplifies the evaluation process and allows for easier parsing and computation. This approach enables the project to handle complex equations with multiple variables and operators effectively.
 
 ## Usage
 
@@ -34,6 +33,10 @@ For detailed instructions on installation, usage, and customization, please refe
 ## Contributing
 
 Contributions to the Truth Table Generator and Equation Solver project are welcome. If you encounter any issues, have suggestions, or would like to contribute new features or enhancements, please submit an issue or a pull request on the repository.
+
+## License
+
+The Truth Table Generator and Equation Solver project is open source and released under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as permitted by the license.
 
 ---
 
